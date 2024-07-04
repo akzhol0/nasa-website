@@ -34,7 +34,7 @@ function HomePageParallax() {
       {loaded ? (
         <>
           <div className="w-full h-[800px]">
-            <img className="w-full h-[800px] object-cover" src={dailyImage.hdurl} alt="nasa-photo" />
+            <img className="w-full h-[800px] object-cover" src={dailyImage.url} alt="nasa-photo" />
           </div>
           <div className="w-full h-[800px] flex items-center ps-[10px] md:ps-[120px] mt-[-800px]">
             <div className="flex flex-col text-white">
