@@ -4,7 +4,7 @@ import MyDefaultButton from "../UI/my-buttons/my-default-button/MyDefaultButton"
 
 function HomePageParallax() {
   const { apiKey } = useContext(contextData);
-  const [loaded, setLoaded] = useState(true);
+  const [loaded, setLoaded] = useState(false);
 
   const [dailyImage, setDailyImage] = useState<any>([]);
 
